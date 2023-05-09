@@ -15,4 +15,4 @@ COPY *.py* "${LAMBDA_TASK_ROOT}"
 COPY .env "${LAMBDA_TASK_ROOT}"
 
 # Set the CMD to your handler function
-CMD [ "app.file_transform_handler" ]
+CMD [ "app.lambda_handler" ]
