@@ -8,6 +8,4 @@ s3transfer==0.6.0
 six==1.16.0
 urllib3==1.26.14
 aioboto3==11.1.0
-
-
-# awslambdaric==2.0.4
+pytesseract==0.3.10
